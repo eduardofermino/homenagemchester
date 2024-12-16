@@ -1,0 +1,365 @@
+* {
+
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+body {
+
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    
+    background-color: black;
+    
+    
+    
+}
+
+.menu {
+
+    display: flex;
+    background-color: transparent;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    color: white;
+    justify-content: space-between;
+    position: fixed;
+    
+    
+    
+}
+
+h1 {
+
+    font-size: 1.1rem;
+    margin-left: 45px;
+    margin-top: 20px;
+    text-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+
+}
+
+h2 {
+
+    font-size: 1.0rem;
+    margin-right: 45px;
+    margin-top: 20px;
+    
+}
+
+
+
+.chester {
+
+    color: #007fff;
+}
+
+.homenagem {
+
+    display: flex;
+    color: white;
+    font-size: 1.8rem;
+    width: 100%;
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+
+.textohomenagem {
+
+    width: 900px;
+    text-align-last: center;
+    
+}
+
+.alunos {
+
+    width: 100%;
+    height: 850px;
+    background-image: url("imagens/back2.png");
+    background-size: 100%;
+    display: flex;
+}
+
+.txtaluno {
+
+    text-align: center;
+    color: #007fff;
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.background {
+
+    background-image: url("imagens/back.png");
+    background-size: 100%;
+}
+
+.alunos20 {
+
+    width: 100%;
+    height: 800px;
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.txtaluno20 {
+
+    font-size: 1.9rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: #007fff;
+    margin-top: 20px;
+}
+
+.alunosfoto img{
+
+    width: 25rem;
+    height: 25rem;
+    margin: 30px;
+    transition: 0.7s;
+
+
+}
+
+.alunosfoto img:hover{
+
+    transform: scale(1.07);
+    box-shadow: rgba(0, 127, 255, 0.7) 0px 7px 29px 0px;
+
+
+}
+
+.alunos img{
+
+    width: 10rem;
+    border: 1px solid #007fff;
+    border-radius: 100%;
+    
+    
+}
+.alunos p {
+
+    font-size: 1.2rem;
+    color: white;
+    
+    
+
+
+}
+
+.alunos{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.aluno1 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 180px;
+    height: 250px;
+    border: 2px solid blue;
+    border-radius: 50px 50px 50px 50px;
+    backdrop-filter: blur(15px);
+    margin: 30px;
+    background-color: black;
+    transition: 0.7s;
+
+    
+    
+    
+    
+    
+}
+
+.aluno1:hover  {
+
+    transform: scale(1.04);
+}
+
+
+h3 {
+
+    font-size: 2rem;
+    
+}
+
+.secalunos {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+    
+}
+
+.aluno2 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 180px;
+    height: 250px;
+    border: 2px solid blue;
+    border-radius: 50px 50px 50px 50px;
+    backdrop-filter: blur(15px);
+    margin: 30px;
+    background-color: black;
+    transition: 0.7s;
+    
+}
+.aluno3 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 180px;
+    height: 250px;
+    border: 2px solid blue;
+    border-radius: 50px 50px 50px 50px;
+    backdrop-filter: blur(15px);
+    margin: 30px;
+    background-color: black;
+    transition: 0.7s;
+    
+}
+.aluno4 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 180px;
+    height: 250px;
+    border: 2px solid blue;
+    border-radius: 50px 50px 50px 50px;
+    backdrop-filter: blur(15px);
+    margin: 30px;
+    background-color: black;
+    transition: 0.7s;
+    
+}
+.aluno5 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 180px;
+    height: 250px;
+    border: 2px solid blue;
+    border-radius: 50px 50px 50px 50px;
+    backdrop-filter: blur(15px);
+    margin: 30px;
+    background-color: black;
+    transition: 0.7s;
+    
+}
+
+.aluno6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 180px;
+    height: 250px;
+    border: 2px solid blue;
+    border-radius: 50px 50px 50px 50px;
+    backdrop-filter: blur(15px);
+    margin: 30px;
+    background-color: black;
+    transition: 0.7s;
+    
+    
+}
+
+
+
+a {
+
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.background2 {
+
+    background-image: url("imagens/back.png");
+    background-size: 100%;
+}
+.homenagem2 {
+
+    display: flex;
+    color: white;
+    font-size: 1.8rem;
+    width: 100%;
+    height: 850px;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.textohomenagem2 {
+
+    width: 850px;
+    text-align-last: center;
+    font-size: 1.5rem;
+    
+}
+
+.homenagem2 img{
+
+    width: 25rem;
+    border: 3px solid #007fff;
+    border-radius: 100%;
+}
+
+.aluno2:hover  {
+
+    transform: scale(1.04);
+}
+.aluno3:hover  {
+
+    transform: scale(1.04);
+}
+.aluno4:hover  {
+
+    transform: scale(1.04);
+}
+.aluno5:hover  {
+
+    transform: scale(1.04);
+}
+
+.aluno6:hover  {
+
+    transform: scale(1.04);
+}
+
+a {
+
+    
+}
